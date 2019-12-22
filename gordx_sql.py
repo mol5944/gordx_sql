@@ -7,7 +7,7 @@ from threading import Thread
 from time import sleep
 from termcolor import colored
 
-errors = ['Query failed','mysql_fetch_array()','mysql_num_rows()','MySQL','Database error','SQL','MariaDB','syntax','SELECT * FROM','Invalid query']
+errors = ['mysql_fetch_array()','mysql_num_rows()','MySQL','Database error','SQL syntax','MariaDB','SELECT * FROM']
 
 def help():
     print('--wordlist (List of words with dorks)')
